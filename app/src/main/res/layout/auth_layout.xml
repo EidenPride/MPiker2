@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:screenOrientation="landscape"
+    tools:context=".Authorization">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:background="@color/bg_gray">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/scan_piker"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_auth"
+            android:textSize="36dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_gravity="center|center_horizontal"
+        android:src="@drawable/ic_barcode_ean"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@color/bg_gray">
+
+        <ImageButton
+            android:id="@+id/button_adminlogin"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:background="@color/bg_gray"
+            android:src="@drawable/shield_200" />
+    </LinearLayout>
+
+</FrameLayout>

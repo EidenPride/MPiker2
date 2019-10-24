@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MPiker2</string>
+
+    <string name="scan_piker">Отсканируйте код тележки</string>
+    <string name="scan_empl">Отсканируйте код сотрудника</string>
+</resources>
